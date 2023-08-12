@@ -1,0 +1,17 @@
+package doubleTrouble_3;
+
+import java.util.Scanner;
+
+public class Demo {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+	    System.out.println(" Enter a number");
+	    int num=scan.nextInt();
+	    int res=doubleTheNumber(num);
+	    System.out.println(res);
+		}
+	    public static int doubleTheNumber(int num) {
+	    	return 2*num;
+	}
+
+}
